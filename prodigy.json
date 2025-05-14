@@ -1,0 +1,10 @@
+{
+    "feed_overlap": false,
+    "show_flag": true,
+    "instant_submit": false,
+    "custom_theme": {
+        "cardMaxWidth": "100%",
+        "fontSize": 16,
+        "smallText": 16
+    }
+}
