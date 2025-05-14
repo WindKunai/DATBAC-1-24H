@@ -1,0 +1,16 @@
+black
+flake8
+pytest
+pytest-cov
+mypy
+docformatter
+json
+pathlib 
+pydocstyle==6.1.1
+toml
+pre-commit==3.8.0
+pydocstyle==6.1.1
+spacy==3.8.4
+Prodigy==1.17.5
+re
+html
