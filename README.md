@@ -46,9 +46,21 @@ The annotation process consists of two sequential steps that must be performed i
 
 ### Step 1: NER Annotation
 
-First, you must run the NER (Named Entity Recognition) annotation tool:
+First, run these commands to add the run commands to the terminal:
 
 ```
+chmod +x run.sh
+```
+
+```
+chmod +x run_relation.sh
+```
+
+you must run the NER (Named Entity Recognition) annotation tool:
+
+```
+chmod +x run.sh
+chmod +x run_relation.sh
 bash run.sh
 ```
 
@@ -88,4 +100,4 @@ If you encounter any issues:
 
 ## Contact
 
-For questions or support, please open do not contact us! <3
+For questions or support, please do not contact us! <3
