@@ -133,9 +133,9 @@ with open('../../../data/binary_data/filtered_quantemp_claims_10p.json', 'r') as
 
 processed_data = process_data(data)
 #Allocates where the output is
-output_filename = '../../../data/binary_data/241LENGTH.json'
+output_filename = '../../../data/Processed/tagged/spaCy_Results.json'
 with open(output_filename, 'w') as outfile:
     json.dump(processed_data, outfile, indent=4)
 
-# Verifies output location
+# Shows output location
 print(f"Data has been processed and saved to {output_filename}")

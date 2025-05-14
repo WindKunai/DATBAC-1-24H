@@ -11,7 +11,7 @@ NUMERICAL_LABELS = ["CARDINAL", "MONEY", "PERCENT", "QUANTITY", "TIME", "DATE", 
 def numerical_relations(dataset: str):
     nlp = spacy.blank("en")
     db = connect()
-    examples = db.get_dataset("Annoted_Dataset")
+    examples = db.get_dataset("NER_Annotated_Person1")
 
     stream = []
 
