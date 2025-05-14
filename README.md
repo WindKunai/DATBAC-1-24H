@@ -18,6 +18,8 @@ Follow these steps to set up the environment and install the necessary dependenc
    cd annotation-tool
    ```
 
+   **please unpack the processed zip folder within the data folder!**
+
 2. Create a virtual environment named **Prodigy_Env** (this specific name is REQUIRED - the scripts won't work with any other name):
    ```
    virtualenv Prodigy_Env
@@ -59,8 +61,6 @@ chmod +x run_relation.sh
 you must run the NER (Named Entity Recognition) annotation tool:
 
 ```
-chmod +x run.sh
-chmod +x run_relation.sh
 bash run.sh
 ```
 
