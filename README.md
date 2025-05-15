@@ -15,7 +15,7 @@ Follow these steps to set up the environment and install the necessary dependenc
 1. Clone the repository:
    ```
    git clone https://github.com/WindKunai/DATBAC-1-24H.git
-   cd annotation-tool
+   cd DATBAC-1-24H
    ```
 
    **please unpack the processed zip folder within the data folder!**
