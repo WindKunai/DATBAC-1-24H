@@ -41,7 +41,10 @@ Follow these steps to set up the environment and install the necessary dependenc
    ```
    pip install -r requirements.txt
    ```
-
+5. Install Prodigy using purchased Lisence Code: XXXX-XXXX-XXXX-XXXX:
+   ```
+   pip install prodigy –extra-index-url https://XXXX-XXXX-XXXX-XXXX@download.prodi.gy
+   ```
 ## Running the Tool
 
 The annotation process consists of two sequential steps that must be performed in the correct order:
